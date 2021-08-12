@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Lakki+Reddy&display=swap');
+
+html, body {
+    height: 100vh;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #D0A3B0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 600px;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+h1 {
+    background-color: #2E0909;
+    color: #F46BD8;
+    font-size: 5rem;
+    font-family: 'Lakki Reddy', cursive;
+    -webkit-text-stroke: 2px black;
+    letter-spacing: 10px;
+    text-align: center;
+    border: 10px solid #480F0F;
+    border-style: ridge;
+    border-radius: 1%;
+    padding-top: 15px;
+}
+
+h2 {
+    font-size: 4rem;
+    letter-spacing: 5px;
+    color: black;
+    font-family: 'Lakki Reddy', cursive;
+}
+
+h3 {
+    font-size: 3rem;
+}
+footer {
+    background-color:#6C5C66;
+    font-size: 3rem;
+    color: white;
+    height: 100%;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer li a {
+    margin-right: .5rem;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #F46BD8;
+}
+
+.jagged-bottom {
+    position:relative;
+}
+
+.jagged-bottom:after {
+    background: #D0A3B0;
+    content:"";
+    height:2vw;
+    position:absolute;
+    top:100%;
+    left:0;
+    right:0;
+    margin-top: -1px;
+    clip-path:polygon(
+    0 0, 2.5% 100%, 5% 0,  7.5% 100%, 
+    10% 0,12.5% 100%,15% 0, 17.5% 100%, 
+    20% 0,22.5% 100%,25% 0, 27.5% 100%, 
+    30% 0,32.5% 100%,35% 0, 37.5% 100%, 
+    40% 0,42.5% 100%,45% 0, 47.5% 100%, 
+    50% 0,52.5% 100%,55% 0, 57.5% 100%, 
+    60% 0,62.5% 100%,65% 0, 67.5% 100%, 
+    70% 0,72.5% 100%,75% 0, 77.5% 100%, 
+    80% 0,82.5% 100%,85% 0, 87.5% 100%, 
+    90% 0,92.5% 100%,95% 0, 97.5% 100%, 100% 0);
+}
+
+@media screen and (max-width: 451px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2.7rem;
+    }
+}
