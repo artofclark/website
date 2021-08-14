@@ -52,7 +52,8 @@ footer {
     background-color:#6C5C66;
     font-size: 3rem;
     color: white;
-    height: 100%;
+    flex: 1;
+    min-height: 250px;
 }
 
 footer .container {
